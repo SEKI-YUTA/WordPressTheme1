@@ -1,0 +1,14 @@
+$breakPoint: 768px;
+
+*, *::before, *::after{box-sizing: border-box;}
+
+@mixin mediaTablet {
+  @media(max-width: $breakPoint) {
+    @content;
+  }
+}
+@mixin mediaPc {
+  @media(min-width: $breakPoint + 1) {
+    @content;
+  }
+}
