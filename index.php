@@ -37,6 +37,14 @@
           </div>
         </article>
       <?php endwhile; endif; ?>
+        <div class="pager">
+          <span>
+            <?php previous_posts_link(); ?>
+          </span>
+          <span>
+            <?php next_posts_link() ?>
+          </span>
+        </div>
       </section>
     </div>
 

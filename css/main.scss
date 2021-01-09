@@ -82,6 +82,19 @@ main {
       }
     }
   }
+  .pager {
+    width: 220px;
+    
+    margin: 0 auto;
+    span {
+      display: block;
+      float: left;
+      width: 100px;
+      &:last-child {
+        margin-left: 20px;
+      }
+    }
+  }
 }
 
 aside {

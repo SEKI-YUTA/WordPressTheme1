@@ -4,6 +4,56 @@ Author: YUTA
 Version: 1.0
 Description: Original Theme
 */
-.wpcf7 {
-	border: 5px solid #000000;
+:root {
+	--btncolor: rgb(0, 195, 255);
+}
+
+tbody {
+	display: block;
+	width: 100%;
+	/* margin: 0 auto; */
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+form p {
+	margin-top: 30px;
+}
+.contact_title h1 {
+	font-size: 30px;
+}
+.haveto {
+	color: red;
+	margin-right: 5px;
+}
+.form_container{
+	width: 600px;
+	margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	font-size: 16px;
+	padding: 10px;
+}
+.contact_title {
+	text-align: center;
+}
+input:focus,
+textarea:focus {
+	border: 2px lightblue solid;
+	outline: none;
+}
+input[type="submit"] {
+	color: white;
+	background: var(--btncolor);
+	border: none;
+	padding: 10px;
+	transition: .1s ease;
+}
+input[type="submit"]:hover {
+	color: var(--btncolor);
+	background: white;
+	transition: 1s;
 }

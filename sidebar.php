@@ -40,11 +40,14 @@
       </div>
 
       <div class="profile border">
+        <?php
+        $path = get_avatar(get_the_author_meta('ID'));
+        ?>
         <div class="img_wrapper">
           <img src="<?php echo get_template_directory_uri(); ?>/img/ErCmxhOVkAAhC97.png" alt="">
         </div>
-        <p class="myname">ゆうた</p>
-        <p class="myintro">2002年生まれ、和歌山県出身。 2020年から本格的にHTML、CSSの学習を開始。 そして今までに、iSara、Airbnb、Write、JIN DEMO　SITE　を模写しました。 案件獲得を目指して引き続き勉強中です。</p>
+        <p class="myname"><?php the_author_meta('display_name'); ?></p>
+        <p class="myintro"><?php the_author_meta('user_description'); ?></p>
         <p></p>
       </div>
 

@@ -113,6 +113,21 @@ main {
   color: #b1b1b1;
 }
 
+.main_container .pager {
+  width: 220px;
+  margin: 0 auto;
+}
+
+.main_container .pager span {
+  display: block;
+  float: left;
+  width: 100px;
+}
+
+.main_container .pager span:last-child {
+  margin-left: 20px;
+}
+
 aside {
   width: 350px;
   border-radius: 10px;
