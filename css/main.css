@@ -177,6 +177,25 @@ aside .search {
   padding: 20px;
 }
 
+aside .search form {
+  overflow: hidden;
+}
+
+aside .search input,
+aside .search button {
+  float: left;
+}
+
+aside .search input[type="text"] {
+  width: calc(100% - 55px);
+}
+
+aside .search button {
+  width: 50px;
+  border: none;
+  margin-left: 3px;
+}
+
 @media (max-width: 768px) {
   aside .search {
     margin: 10px 10px 0 10px;

@@ -1,13 +1,7 @@
 <aside>
-      <div class="search border">
-        <p>サイト内検索</p>
-        <form action="">
-          <input type="text">
-          <input type="submit" value="検索">
-        </form>
-      </div>
+      <?php get_search_form(); ?>
 
-      <div class="popular_posts border">
+      <!-- <div class="popular_posts border">
         <div class="sec_title">
           <h2 class="popular_ranking"><i class="fas fa-crown"></i>人気記事ランキング</h2>
         </div>
@@ -37,7 +31,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="profile border">
         <?php
@@ -51,7 +45,7 @@
         <p></p>
       </div>
 
-      <div class="posted_month border">
+      <!-- <div class="posted_month border">
         <ul>
           <li><a href="">2021/1</a></li>
           <li><a href="">2020/12</a></li>
@@ -67,5 +61,5 @@
           <li><a href="">2020/2</a></li>
           <li><a href="">2020/1</a></li>
         </ul>
-      </div>
+      </div> -->
     </aside>

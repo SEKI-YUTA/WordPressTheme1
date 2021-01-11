@@ -128,6 +128,21 @@ aside {
 
   .search {
     padding: 20px;
+    form {
+      overflow: hidden;
+    }
+    input,
+    button{
+      float: left;
+    }
+    input[type="text"] {
+      width: calc(100% - 55px);
+    }
+    button {
+      width: 50px;
+      border: none;
+      margin-left: 3px;
+    }
     @include mediaTablet {
       margin: 10px 10px 0 10px;
     }

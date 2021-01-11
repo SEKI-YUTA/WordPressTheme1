@@ -1,0 +1,15 @@
+main article {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #f1f1f1;
+}
+
+main article h1 {
+  font-size: 35px;
+}
+
+main article p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=article_des.css.map */

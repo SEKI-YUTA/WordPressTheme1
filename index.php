@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <?php get_header() ?>
+  <head>
+    <?php get_header() ?>
+  </head>
 <body>
   
   <?php get_template_part('include/header_nav'); ?>
@@ -51,9 +53,7 @@
     <?php get_sidebar(); ?>
   </main>
 
-  <footer>
-    <p>yuta seki,2021 All rights reserved</p>
-  </footer>
+  <?php get_footer(); ?>
   
   <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
 

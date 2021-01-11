@@ -1,0 +1,97 @@
+@import "style";
+
+
+.main_container_arc {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  .resent_posts_arc {
+    display: flex;
+    flex-wrap: wrap;
+    .resent_post_arc {
+      width: calc(50% - 20px);
+      margin: 0px 10px;
+      &:nth-child(n + 3) {
+        margin-top: 20px;
+      }
+      @include mediaTablet {
+        margin: 10px 10px 0 10px;
+      }
+      .img_wrapper {
+        height: 300px;
+        overflow: hidden;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          transform: scale(1);
+          transition: .3s ease-out;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+      .article_content {
+        padding: 20px;
+        position: relative;
+        .title {
+          font-size: 30px;
+          @include mediaTablet {
+            font-size: 24px;
+          }
+        }
+        .text {
+          margin-top: 20px;
+          @include mediaTablet {
+            margin-top: 10px;
+            p {
+              line-height: 1.4;
+            }
+          }
+          p {
+            line-height: 1.5;
+          }
+        }
+        .more_button {
+          width: 125px;
+          height: 40px;
+          margin: 20px auto 0 auto;
+          text-align: center;
+          font-size: 16px;
+          line-height: 40px;
+          border: 1px solid 
+          #d8d8d8;
+          a {
+            color: #000000;
+            text-decoration: none;
+            &:visited {
+              color: #000000;
+            }
+          }
+        }
+        .description {
+          position: absolute;
+          bottom: 15px;
+          right: 20px;
+          border-collapse: separate;
+          border-spacing: 5px;
+          font-size: 10px;
+          color: rgb(177, 177, 177);
+        }
+      }
+    }
+    .pager {
+      width: 220px;
+      
+      margin: 0 auto;
+      span {
+        display: block;
+        float: left;
+        width: 100px;
+        &:last-child {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
