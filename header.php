@@ -6,5 +6,6 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/widget/widget_style.css">
   <script src="https://kit.fontawesome.com/ab6d33b71f.js" crossorigin="anonymous"></script>
   <?php wp_head(); ?>

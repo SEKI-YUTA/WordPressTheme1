@@ -13,12 +13,9 @@
     <h1>お問い合わせフォーム</h1>
   </div>
 <div class="form_container">
-  <?php echo do_shortcode('[contact-form-7 id="2173" title="コンタクトフォーム２"]'); ?>
+  <?php echo do_shortcode('[contact-form-7 id="2318" title="コンタクトフォーム 1"]'); ?>
 </div>
-  <footer>
-    <p>yuta seki,2021 All rights reserved</p>
-    <p>フッター</p>
-  </footer>
+<?php get_footer(); ?>
 <?php wp_footer(); ?>
 
 </body>

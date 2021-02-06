@@ -1,5 +1,5 @@
 /*
-Theme Name: originTheme1
+Theme Name: WordPressTheme1
 Author: YUTA
 Version: 1.0
 Description: Original Theme
@@ -32,6 +32,7 @@ form p {
 }
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 textarea {
 	width: 100%;
 	font-size: 16px;

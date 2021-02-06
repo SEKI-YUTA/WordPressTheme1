@@ -15,7 +15,6 @@
         <?php endwhile; endif; ?>
       </article>
     </main>
-
     <?php get_footer(); ?>
     <?php wp_footer(); ?>
   </body>

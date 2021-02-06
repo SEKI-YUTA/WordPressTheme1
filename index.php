@@ -3,6 +3,12 @@
   <head>
     <?php get_header() ?>
   </head>
+  <style>
+    .widget_text {
+      padding: 20px;
+      background: gray;
+    }
+  </style>
 <body>
   
   <?php get_template_part('include/header_nav'); ?>
@@ -17,7 +23,6 @@
             <?php } else { ?>
               <img src="<?php echo get_template_directory_uri(); ?>/img/nophoto.png" alt="">
             <?php } ?>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/backdrop-filter.png" alt="記事の画像">
           </div>
           <div class="article_content">
             <div class="title"><h2><?php the_title(); ?></h2></div>
@@ -49,8 +54,9 @@
         </div>
       </section>
     </div>
-
-    <?php get_sidebar(); ?>
+    <aside>
+      <?php get_sidebar(); ?>
+    </aside>
   </main>
 
   <?php get_footer(); ?>
